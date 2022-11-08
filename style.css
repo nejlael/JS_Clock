@@ -37,7 +37,7 @@ box-shadow: 0 0 10px rgba(0,0,0,.5);
 
 .heure{
 transform-origin: bottom center;
-transform: rotate(0deg);
+transform: rotateZ(0deg);
 
 }
 .minute{
@@ -46,7 +46,7 @@ transform: rotate(0deg);
     width: 6px;
     top: -14%;
     transform-origin: bottom center;
-    transform: rotate(90deg);
+    transform: rotateZ(90deg);
 }
 
 .seconde{
@@ -56,7 +56,7 @@ transform: rotate(0deg);
     background-color: rgb(176, 0, 0);
     top: -14%;
     transform-origin: bottom center;
-    transform: rotate(180deg);
+    transform: rotateZ(180deg);
 }
 .point{
     height: 20px;
