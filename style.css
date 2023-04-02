@@ -12,49 +12,47 @@ body{
 }
 .clock{
     background-color: white;
-    border: 5px solid white;
+    border: 5px solid rgb(147, 12, 12);
     border-radius: 50%;
-
 }
 
 .wrap{
     width: 350px;
     height: 350px;
-    position: relative;
 }
 
 
 .minute, .heure, .seconde, .point{
 position: absolute;
-height: 100px;
-width: 6px;
 margin: auto;
 background-color: black;
-top: -10%;
 left: 0; bottom: 0; right: 0;
 box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
 .heure{
+height: 100px;
+width: 6px;
+top: -15%;
 transform-origin: bottom center;
 transform: rotateZ(0deg);
-
 }
+
 .minute{
     position: absolute;
     height: 130px;
     width: 6px;
-    top: -13%;
+    top: -15%;
     transform-origin: bottom center;
     transform: rotateZ(90deg);
 }
 
 .seconde{
     position: absolute;
-    height: 130px;
+    height: 170px;
     width: 2px;
     background-color: rgb(176, 0, 0);
-    top: -14%;
+    top: -25%; 
     transform-origin: bottom center;
     transform: rotateZ(180deg);
 }
